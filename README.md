@@ -1,1 +1,0 @@
-# western-peak-properties
