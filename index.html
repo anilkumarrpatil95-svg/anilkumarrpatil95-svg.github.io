@@ -1081,31 +1081,19 @@ section h2 {
     text-shadow: 0 2px 6px rgba(0,0,0,0.6); /* subtle shadow for readability */
 }
 
-    .hero-tagline {
-  margin-top: 18px;
-  font-size: 20px;
-  font-weight: 700;
+  .premium-text {
   text-align: center;
-  color: #ffffff;
-  letter-spacing: 1px;
-  position: relative;
-  display: inline-block;
-  text-shadow: 0 0 8px rgba(201,162,77,0.8),
-               0 0 15px rgba(201,162,77,0.6),
-               0 0 25px rgba(201,162,77,0.4);
-  animation: goldenGlow 2.5s ease-in-out infinite alternate;
+  padding: 40px 20px;
 }
 
-@keyframes goldenGlow {
-  from {
-    text-shadow: 0 0 6px rgba(201,162,77,0.6),
-                 0 0 12px rgba(201,162,77,0.4);
-  }
-  to {
-    text-shadow: 0 0 12px rgba(30, 255, 0, 0.9),
-                 0 0 25px rgba(0, 255, 21, 0.7),
-                 0 0 35px rgba(0, 255, 17, 0.5);
-  }
+.premium-text h1 {
+  font-family: 'Poppins', sans-serif;   /* Clean modern font */
+  font-size: 32px;
+  font-weight: 500;                     /* Medium weight */
+  color: #ffffff;                       /* White text */
+  letter-spacing: 2px;                  /* Premium spacing */
+  text-transform: none;                 /* Keep sentence case */
+  margin: 0;
 }
 
 
@@ -1160,9 +1148,9 @@ section h2 {
   <span class="phone-icon">📞</span> Enquire Now.
 
 </a>
-    <p class="hero-tagline">
-  From 10 Gunta to 200 Acres — 10,000+ Opportunities Waiting for You
-</p>
+    <div class="premium-text">
+  <h1>From 10 Gunta to 200 Acres — 10,000+ Opportunities Waiting for You</h1>
+</div>
  
 
   </div>
@@ -1633,6 +1621,7 @@ window.prevSlide = function () {
 
 
  
+
 
 
 
